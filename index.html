@@ -11,11 +11,30 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <svg width="0" height="0" style="position: absolute;">
+            <filter id="squiggly">
+                <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+            </filter>
+        </svg>
         <main>
             <div class="welcome-box">
                 <h1>Welcome</h1>
                 <p>Hi, I’m Max. I’m a M.Sc. student in Amsterdam at the AMS Institute. I want to make this page my place to share things. Anything really. I’m building it while I figure out what exactly to put here but this has been something I have been meaning to do for a while now. A place I can put anything I want in any format I want, not driven by any algorithm.</p>
             </div>
+            <div class="navigation-buttons">
+                <a href="#" class="nav-button">My<br>Thoughts</a>
+                <a href="#" class="nav-button">My<br>Recommendations</a>
+                <a href="#" class="nav-button">My<br>Media</a>
+            </div>
+            <a href="#" class="about-me">About Me</a>
         </main>
+        <footer>
+            <a href="/impressum">Imprint</a>
+            <span> | </span>
+            <a href="/datenschutzerklärung">Privacy Policy</a>
+            <span> | </span>
+            <a href="/ai-use">Note on AI use</a>
+        </footer>
     </body>
 </html>

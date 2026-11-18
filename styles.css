@@ -3,7 +3,6 @@ body {
   line-height: 1.6;
   color: #000000;
   background-color: #FEFAE0;
-  margin: 4rem auto;
   padding: 0 1.5rem;
   display: flex;
   justify-content: center;
@@ -21,7 +20,7 @@ h1 {
   margin-bottom: 0rem;
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 128px;
+  font-size: clamp(3rem, 14vw, 8rem);
   font-weight: 600;
   color: #283618;
 }
@@ -37,12 +36,12 @@ a {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 1rem 0;
+  margin-block-start: auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 0.75rem;
 }
 

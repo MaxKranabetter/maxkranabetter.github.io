@@ -1,0 +1,31 @@
+body {
+  font-family: "Sometype Mono", monospace;
+  line-height: 1.6;
+  color: #283618;
+  background-color: #FEFAE0;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 128px;
+  font-weight: 600;
+}
+
+p {
+  text-align: justify;
+  font-weight: 250;
+}
+
+.welcome-box {
+  width: 100%;
+  max-width: 800px;
+}
